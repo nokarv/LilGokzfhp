@@ -10,8 +10,10 @@
 
 .all{
 
-  background-color: #891ad3 ;
-    
+/*  background-color: #891ad3 ;*/
+         background: linear-gradient(to right,#891ad3 30%,rgb(129, 5, 129))repeat;
+    width:100vw ;
+    height:100vh;
 }
 :root{
     
