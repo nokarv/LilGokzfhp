@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="blackjack.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="blackjack.js"></script>
+    </head>
+
+    <body class="all">
+        <div class="Navbarbb">
+            <ul class="ulnavbar">
+              <li class=" linavbar"><a class = "menunavbar" href="index.html">Home</a></li>
+              <li class=" linavbar"><a class= "menunavbar"href="info.html">Info</a></li>
+              <li class="linavbar"><a class="menunavbar" href="login.html">Register</a></li>
+       
+            </ul>
+           </div>
+           <br>
+<div class="contentbb">
+    <div class="table">
+        <h2>Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="./Blackjack card/Back.png">
+            
+            
+        </div>
+
+        <h2>You: <span id="your-sum"></span></h2>
+        
+        <div id="your-cards"></div>
+        <h1 class="textresult" id="results"></h1>
+        <br>
+            <div class="buttonbj">
+                <button id="hit" onclick="Dee">Hit</button>
+                <button id="stay">Stay</button>
+                <form>
+                    <input class="RESTART" value="Retry" onclick="history.go(0)" type="button">
+                </form> 
+            </div>
+        <br></br>
+       
+    </div>
+    
+</div>
+
+    </body>
+</html>
+
+<!-- 
+<form>
+    <input value="RESTART GAME" onclick="history.go(0)" type="button">
+  </form> -->
