@@ -1,0 +1,234 @@
+*,html,body{
+    margin:0;
+    padding:0;
+    border: 5px solid none;
+    box-sizing: border-box;
+   
+}
+
+
+/* ini navbar*/
+.all{
+    min-height: 100vh;
+    background-color: #4b3bff;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: right;
+    animation: gradient-animation 20s infinite alternate;
+    
+    
+
+    background-color: rgb(41, 41, 223);
+    background: linear-gradient(to right,#891ad3 30%,rgb(129, 5, 129));
+    
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+ }
+@keyframes gradient-animation{
+    0%{
+        background-position:left;
+    }
+    100%{
+        background-position: right;
+    }
+}
+:root{
+    --gradient:linear-gradient(90deg, #3626e4 0%, #25d3ffe5 65%);
+    --gradient1:linear-gradient(120deg, #b23bff 0%, #25ff54 18%, #10a12f 49%, #19d849 75%, #ffffff 100%);
+    
+}  
+
+
+@media screen and (max-width:600px){
+    .all{
+        width: 100%;
+    }
+}
+    
+
+.Navbar{
+  height:10%;
+    width:100%;
+
+    
+}
+
+.ulnavbar{
+display:flex;
+height:55px;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+.linavbar{
+    color: white;
+    list-style-type: none;
+    padding:15px;
+    margin:5px;
+}
+.linavbar:hover{
+    color: rgb(36, 35, 35);
+    background-color: transparent;
+    background-color: rgb(188, 188, 247);
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 3px;
+    
+
+}
+.menunavbar{
+    color: white;
+    text-decoration: none;
+}
+.content{
+ height:90%;
+    width:100%;
+    border: 0px solid none;
+  margin: auto 0;
+    
+}
+.title{
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.judul{
+    background-image: var(--gradient1);
+    -webkit-background-clip: text;
+    background-clip: text;
+        font-family: "Poetsen One", sans-serif;
+        color: transparent;
+        font-weight: 400;
+        font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    letter-spacing: 3px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    /* color:rgb(194, 37, 194); */
+    
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  animation: fadeIn 1s ease-in-out;
+    font-size: 80px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+}
+.contentpic{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    }
+    .C1{
+        height:152px;
+        width: 260px;
+        padding-top: 3px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: 5px solid none;
+        border-radius: 30px;
+    }
+.pic{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2px;
+
+    }
+    .picm{
+    border: 5px solid none;
+    background-color: rgb(218, 218, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+ border-radius: 30px;
+
+            }
+
+    .pic1:hover{
+        background-color:  grey ;
+        transition: .2s ease-in-out;
+        transition-delay: .1s;  
+        transition: .2s ease-in-out;
+        transition-delay: .1s;
+        border: 3px solid grey;
+        list-style-type: none;
+      border-radius: 30px;
+       
+    }
+    .picm:hover{
+        transition: .2s ease-in-out;
+        transition-delay: .1s;  
+        transition: .2s ease-in-out;
+        transition-delay: .1s;
+        border: 5px solid grey;
+        list-style-type: none;
+       
+    }
+   
+   
+    
+    .text{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .textc1{
+        list-style-type: none;
+        text-decoration: none;
+        color:white;
+        margin-left: 90px;
+    }
+    .textc1:hover{
+        
+        color:purple;
+    }
+    .textc2{
+        list-style-type: none;
+        text-decoration: none;
+        color:white;
+        margin-right: 80px;
+  
+    }
+    .textc2:hover{
+        
+        color:purple;
+    }
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: blanchedalmond;
+
+    }
+    .infotitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: blanchedalmond;
+        letter-spacing: 2px;
+    }
+    .info1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28 ;
+        color: antiquewhite;
+    }
+
+    /* background: linear-gradient(325deg,  #03001e 0%,#7303c0 30%,#ec38bc 70%, #fdeff9 100%); */
