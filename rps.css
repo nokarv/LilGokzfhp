@@ -9,6 +9,7 @@ body {
 }
 .Navbarr{
    background-color:  rgb(28,28,216);
+    width:100vw;
    
 }
 #opponent-choice {
@@ -51,7 +52,7 @@ body {
 }
 .picchoice{
 display: flex;
-gap: 100px;
+gap: 80px;
 flex-direction: row;
 justify-content: center;
 
