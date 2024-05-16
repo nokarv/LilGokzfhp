@@ -12,15 +12,15 @@ body {
    
 }
 #opponent-choice {
-      width: 15%;
-    height: 15%;
+     width: 20vw;
+    height: 28vh;
     /* background-color: cyan; */
     margin-top: 10px;
 }
 
 #your-choice {
-    width: 15%;
-    height: 15%;
+   width: 20vw;
+    height: 28vh;
     
     margin-top: 10px; 
 }
