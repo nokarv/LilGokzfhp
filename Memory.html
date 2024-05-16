@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game with JavaScript</title>
+    <link rel="stylesheet" href="stylememory.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptmemory.js" defer></script>
+</head>
+<body class="all">
+    <div class="bg">
+     <div class="Navbarmem">
+        <ul class="ulnavbar">
+          <li class=" linavbar"><a class = "menunavbar" href="index.html">Home</a></li>
+          <li class=" linavbar"><a class= "menunavbar"href="info.html">Info</a></li>
+          <li class="linavbar"><a class="menunavbar" href="register.html">Register</a></li>
+          <li class="linavbar"><a class="menunavbar" href="#"></a></li>
+   
+        </ul>
+     </div>
+     <br></br>
+     <div class="game">
+        <ul class="controls">
+            
+            <button>Start</button>
+            <form>
+                <input class="RESTART" value="Retry" onclick="history.go(0)" type="button">
+            </form> 
+            <div class="stats">
+                <div class="moves">0 moves</div>
+                <div class="timer">Time: 0 sec</div>
+      
+        </ul>
+        <ul class="board-container">
+            <div class="board" data-dimension="4"></div>
+            <div class="win">You won!</div>
+        </ul>
+    
+     </div>
+    </div>
+</body>
+</html>

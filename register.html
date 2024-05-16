@@ -1,0 +1,237 @@
+<html>
+<head>
+  <title>Roadfacts.com</title>
+  <link rel="stylesheet"  href="style.css"/>
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbarr{
+  height: 10%;
+  width: 100%;
+}
+
+ .logincontent{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .login{
+  display: flex;
+  flex-direction: column;
+  height:fit-content;
+  width: 35%;
+  padding: 15px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+ }
+ input{
+  margin: 5px 0px;
+  /* height: 35px; */
+  height: 20%;
+  width: 100%;
+  padding: 7px;
+ }
+ .buttontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .button{
+  height: 35px;
+  margin:5px 0px;
+  background-color: skyblue;
+  border:1px solid;
+  border-radius: 5px;
+  color: #1b1b1b;
+  text-decoration: none;
+  cursor:pointer;
+  position: relative;
+  transition:background-color 
+  linear .1s;
+  &:after{
+    content:"";
+    background-color: black;
+    top: 0;
+    left: 0;
+    transform: translate(
+      2px, 2px
+    );
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 5px;
+    border: 1px solid black;
+  
+  }&:active{
+    background-color: #be68be;
+left: 2px;
+top: 2px;
+&after{
+  transform: translate(
+    0px,0px
+  );
+}
+  }
+  
+ }
+ .button:hover{
+  background-color: #3a3939;
+  color: skyblue;
+ }
+ 
+
+ 
+ 
+  </style>
+</head>
+<body class="all">
+    <div class="Navbarr">
+        <ul class="ulnavbar">
+          <li class=" linavbar"><a class = "menunavbar" href="index.html">Home</a></li>
+          <li class=" linavbar"><a class= "menunavbar"href="info.html">Info</a></li>
+          <li class="linavbar"><a class="menunavbar" href="#">Register</a></li>
+          
+        </ul>
+       </div > 
+      <div class="register">
+       <br></br>
+       <h1 class="info">Register Now !</h1>
+       <h2 class=" info1"> more features and suprises waiting for you</h3>
+       <div class="logincontent">
+       <ul class="login">
+        <input type="email"
+        placeholder="email">
+        <input type="password"
+        placeholder="password">
+        <a  href="index.html" class=" button">
+          
+          <h2 class="buttontext">login</h2></a>
+       </ul>
+       </div>
+      </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <html>
+<head>
+  <title>Roadfacts.com</title>
+  <link rel="stylesheet"  href="style.css"/>
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+ .logincontent{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .login{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 15px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+ }
+ input{
+  margin: 5px 0px;
+  height: 35px;
+  padding: 7px;
+ }
+ .buttontext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .button{
+  height: 35px;
+  margin:5px 0px;
+  background-color: skyblue;
+  border:1px solid;
+  border-radius: 5px;
+  color: #1b1b1b;
+  text-decoration: none;
+  cursor:pointer;
+  position: relative;
+  transition:background-color 
+  linear .1s;
+  &:after{
+    content:"";
+    background-color: black;
+    top: 0;
+    left: 0;
+    transform: translate(
+      2px, 2px
+    );
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 5px;
+    border: 1px solid black;
+  
+  }&:active{
+    background-color: #be68be;
+left: 2px;
+top: 2px;
+&after{
+  transform: translate(
+    0px,0px
+  );
+}
+  }
+  
+ }
+ .button:hover{
+  background-color: #3a3939;
+  color: skyblue;
+ }
+ 
+
+ 
+ 
+  </style>
+</head>
+<body class="all">
+    <div class="Navbar">
+        <ul class="ulnavbar">
+          <li class=" linavbar"><a class = "menunavbar" href="index.html">Home</a></li>
+          <li class=" linavbar"><a class= "menunavbar"href="info.html">Info</a></li>
+          <li class="linavbar"><a class="menunavbar" href="#">Register</a></li>
+          
+        </ul>
+       </div> 
+       <br></br>
+       <h1 class="info">Register Now !</h1>
+       <h2 class=" info1"> more features and suprises waiting for you</h3>
+       <div class="logincontent">
+       <ul class="login">
+        <input type="email"
+        placeholder="email">
+        <input type="password"
+        placeholder="password">
+        <a  href="main.html" class=" button">
+          
+          <h2 class="buttontext">login</h2></a>
+
+        
+       </ul>
+       </div>
+</body>
+</html> -->
