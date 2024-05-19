@@ -56,7 +56,7 @@ function run(){
     timer = setTimeout(() => {
         hole.removeChild(img)
         run()
-    }, 1000)
+    }, 800)
 if (time>0){
     hole.appendChild(img)
 }
