@@ -7,19 +7,19 @@
 }
 
 
-
+/* ini navbar*/
 .all{
+    background-color: rgb(129, 5, 129);
 
-/*  background-color: #891ad3 ;*/
-        background-color: rgb(129, 5, 129);
-    width:100vw ;
-    height:100vh;
+    background: linear-gradient(to right,#891ad3 30%,rgb(129, 5, 129))0 0/100vw 100vh re;
+    
 }
 :root{
     
     --gradient1:linear-gradient(120deg, #b23bff 0%, #25ff54 18%, #10a12f 49%, #19d849 75%, #ffffff 100%);
     
 }  
+
 
 @media screen and (max-width:600px){
     .all{
@@ -30,7 +30,7 @@
 
 .Navbar{
   height:10%;
-    width:100vw;
+    width:100%;
 
     
 }
@@ -79,23 +79,19 @@ font-size: 20px;
     background-image: var(--gradient1);
     -webkit-background-clip: text;
     background-clip: text;
-        font-family: "Poetsen One", sans-serif;
-        color: transparent;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: bold;
+    font-style: italic;
+    color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    letter-spacing: 3px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
     /* color:rgb(194, 37, 194); */
-    
-  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
   animation: fadeIn 1s ease-in-out;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 1.5;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     @keyframes fadeIn {
         from {
             opacity: 0;
