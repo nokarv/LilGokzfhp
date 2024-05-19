@@ -38,6 +38,12 @@ font-size: 30px;
 background-color: brown;
 
 }
+.retry{
+  width: 78px;
+  height: 35px;
+  font-size: 30px;
+  background-color: rgb(202, 65, 16);
+}
 .score{
   font-size: 30px;
  
