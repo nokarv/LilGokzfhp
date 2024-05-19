@@ -1,7 +1,35 @@
 const cursor = document.querySelector('.cursor')
 const holes = [...document.querySelectorAll('.hole')]
 const scoreEl = document.querySelector('.score span')
+const button= document.getElementById('button');
 let score = 0
+let time=20;
+let intervalid;
+timedisplay= document.getElementById('timedisplay');
+
+function play(){
+
+    timer()
+    run()
+}
+function timer(){
+    intervalid=setInterval(() => {
+        time--;
+       
+        timedisplay.textContent= time;
+        console.log(time);
+
+        if(time==0){
+            clearInterval(intervalid);
+          console.log('times up!')
+        }
+    }, 1000);
+
+}
+
+
+
+
 
 const sound = new Audio("audio_Pop.mp3")
 
@@ -25,16 +53,21 @@ function run(){
             run()
         }, 500)
     })
-
-    hole.appendChild(img)
-
     timer = setTimeout(() => {
         hole.removeChild(img)
         run()
-    }, 1500)
+    }, 1000)
+if (time>0){
+    hole.appendChild(img)
+}
+return
+  
 }
 
-
+button.addEventListener('click', function(){
+    console.log('button click')
+    button.disabled=true;
+})
 window.addEventListener('mousemove', e => {
     cursor.style.top = e.pageY + 'px'
     cursor.style.left = e.pageX + 'px'
@@ -45,7 +78,6 @@ window.addEventListener('mousedown', () => {
 window.addEventListener('mouseup', () => {
     cursor.classList.remove('active')
 })
-
 // const tanah = document.querySelectorAll('.hole');
 // const tikus = "mole.png"
 // const papanSkor = document.querySelector('.score span');
