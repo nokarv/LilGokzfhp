@@ -23,9 +23,10 @@
   </div>
   
 <h1 class="judulw">Wreck A-Mole</h1>
-
+<div class="ket">
   <h1 class="score">SCORE: <span>0</span></h1>
-
+  <h1 id="timer">TIME:<span id="timedisplay">20</span>s</h1>
+</div>
 </div>
   <div class="contentwreck">
       <div class="board">
@@ -40,8 +41,11 @@
           <div class="hole"></div>
       </div>
      
-      <button type="button" class="mulai" onclick="run()">Start</button>
-      <h1></h1>
+      <div class="btn">
+        <button type="button" class="mulai" id='button' onclick="play()">Start</button>
+        <input class="mulai" value="Retry" onclick="history.go(0)" type="button">
+        <h1></h1>
+      </div>
   </div>
     <div class="cursor"></div>
 <div class="footer">
