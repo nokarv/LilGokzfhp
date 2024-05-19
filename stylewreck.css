@@ -29,13 +29,10 @@ body{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  cursor:none;
 }
 
 .mulai{
-display: flex;
-margin: 0 auto;
-width: 70px;
+width: 78px;
 height: 35px;
 font-size: 30px;
 background-color: brown;
@@ -96,7 +93,7 @@ background-color: brown;
   background-size: 100% 100%;
   transform: translate(-20%, -20%);
   transition: transform .1s;
-  pointer-events: none;
+pointer-events: none;
 }
 .cursor.active{
   transform: translate(-20%, -20%) rotate(-45deg);
@@ -110,6 +107,19 @@ background-color: brown;
     font-weight: 700;
     font-style: normal;
 }
+.ket{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
 
 
 
