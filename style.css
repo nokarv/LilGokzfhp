@@ -115,10 +115,10 @@ font-size: 20px;
     .C1{
         height:152px;
         width: 260px;
-        padding-top: 3px;
-        padding-left: 2px;
+     padding-top: 2px;
+       padding-left: 2px;
         padding-right: 2px;
-        border: 5px solid none;
+        border: 3px solid white;
         border-radius: 30px;
     }
 .pic{
@@ -127,9 +127,10 @@ justify-content: center;
 align-items: center;
 margin: 2px;
 
+
     }
     .picm{
-    border: 5px solid none;
+    border: 3px solid none;
     background-color: rgb(218, 218, 55);
     display: flex;
     justify-content: center;
