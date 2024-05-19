@@ -48,7 +48,7 @@ background-color: brown;
   border-radius: 20px;
   background: url("./soil.png");
   background-size: cover;
-  height: 70vh;
+  height: 65vh;
   width: 90%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -67,7 +67,7 @@ background-color: brown;
 }
 .hole .mole{
   width: 8vw;
-  height: 17vh;
+  height: 14vh;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
