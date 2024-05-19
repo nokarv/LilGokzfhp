@@ -16,7 +16,9 @@
 }
 :root{
     
-    --gradient1:linear-gradient(120deg, #b23bff 0%, #25ff54 18%, #10a12f 49%, #19d849 75%, #ffffff 100%);
+    --gradient1:linear-gradient(to left, #fdfc47, #24fe41);
+    
+    /* --gradient1:linear-gradient(120deg, #b23bff 0%, #25ff54 18%, #10a12f 49%, #19d849 75%, #fff 100%); */
     
 }  
 
@@ -86,10 +88,11 @@ font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+  
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
     /* color:rgb(194, 37, 194); */
   animation: fadeIn 1s ease-in-out;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.5;
     letter-spacing: 1px;
     @keyframes fadeIn {
@@ -207,5 +210,6 @@ margin: 2px;
         font-size: 28 ;
         color: antiquewhite;
     }
+
 
     /* background: linear-gradient(325deg,  #03001e 0%,#7303c0 30%,#ec38bc 70%, #fdeff9 100%); */
